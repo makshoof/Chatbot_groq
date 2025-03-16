@@ -7,7 +7,7 @@ from langchain_groq import ChatGroq  # Import Groq API integration
 
 # Load API key from environment variables
 load_dotenv()
-API_KEY = os.getenv("GROQ_API_KEY")
+API_KEY = st.secrets["GROQ_API_KEY"]
 
 # Define prompt template
 prompt = ChatPromptTemplate.from_messages(
