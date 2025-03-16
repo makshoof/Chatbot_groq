@@ -32,7 +32,7 @@ st.title("Enhanced Q&A Chatbot with Groq's Models")
 
 # Sidebar Settings
 st.sidebar.title("Settings")
-api_key = st.sidebar.text_input("Enter Your Groq API Key:", type="password", value=API_KEY)
+api_key = st.sidebar.text_input("Enter Your Groq API Key:", type="password")
 
 # Model selection (Groq supports Llama models)
 # Model selection (Only use Groq-supported models)
